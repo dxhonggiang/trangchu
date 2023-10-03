@@ -14,6 +14,15 @@ p{
     font-weight: 700;
     font-size: 24px;
 }
+.text-bold-1{
+    font-weight: 700;
+    font-size: 36px;
+    margin: auto;
+}
+img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .linehei{
     font-size: 24px;
     line-height: 36px;
@@ -21,7 +30,12 @@ p{
 }
 .text-center{
     text-align: center;
+    color: #666666;
 }
 .text-right{
     text-align: right;
+}
+iframe{
+    margin: auto;
+    padding-bottom: 20px;
 }
