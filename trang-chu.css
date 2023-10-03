@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+}
+.wrapper{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 12px 0;
+}
+.text-bold{
+    font-weight: 700;
+    font-size: 24px;
+}
+.linehei{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
