@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+}
+.wrapper{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 5px 0;
+}
+.text-bold{
+    font-weight: 700;
+    font-size: 24px;
+}
+.text-bold-1{
+    font-weight: 700;
+    font-size: 36px;
+    margin: auto;
+}
+.tab-indent {
+    text-indent: 5%;
+}
+img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.linehei{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+    color: #666666;
+}
+.text-right{
+    text-align: right;
+}
+iframe{
+    padding-top: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+   iframe{
+    width: 100%;
+    height: 315px;
+   }
+}
